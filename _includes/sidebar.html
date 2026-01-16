@@ -55,13 +55,15 @@
       {%- assign url = null -%}
 
       {% case entry.type %}
-        {% when 'github', 'twitter' %}
-          {%- unless site[entry.type].username -%}
-            {%- continue -%}
-          {%- endunless -%}
-          {%- capture url -%}
-            https://{{ entry.type }}.com/{{ site[entry.type].username }}
-          {%- endcapture -%}
+          {% comment %}
+            {% when 'github', 'twitter' %}
+            {%- unless site[entry.type].username -%}
+              {%- continue -%}
+            {%- endunless -%}
+            {%- capture url -%}
+              https://{{ entry.type }}.com/{{ site[entry.type].username }}
+            {%- endcapture -%}
+          {% endcomment %}
         {% when 'email' %}
           {%- unless site.social.email -%}
             {%- continue -%}
