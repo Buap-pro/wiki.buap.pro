@@ -45,6 +45,38 @@
       <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
         <i class="fas fa-adjust"></i>
       </button>
+      <script>
+        const html = document.documentElement;
+        const icon = document.querySelector('#mode-toggle i');
+        const toggle = document.getElementById('mode-toggle');
+
+        // Font Awesome setup
+        icon.classList.remove('fas', 'fa-adjust');
+        icon.classList.add('fa-regular');
+
+        const getMode = () => html.dataset.mode ?? 'dark';
+
+        const setIcon = () => {
+          const mode = getMode();
+          icon.classList.toggle('fa-sun', mode === 'dark');
+          icon.classList.toggle('fa-moon', mode === 'light');
+        };
+
+        // Initial render
+        setIcon();
+
+        // Update icon when the button is clicked
+        toggle.addEventListener('click', () => {
+          // Let other code change data-mode first
+          requestAnimationFrame(setIcon);
+        });
+
+        // 🔥 React to changes from ANY source
+        new MutationObserver(setIcon).observe(html, {
+          attributes: true,
+          attributeFilter: ['data-mode']
+        });
+      </script>
 
       {% if site.data.contact.size > 0 %}
         <span class="icon-border"></span>
