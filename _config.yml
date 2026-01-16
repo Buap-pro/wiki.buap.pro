@@ -1,3 +1,14 @@
+# Custom configs
+
+discord:
+  link: https://link.buap.pro/wikidc
+
+whatsapp:
+  link: https://link.buap.pro/wikiwa
+
+mainweb:
+  link: https://link.buap.pro/wikiwe
+
 # The Site Configuration
 
 # Import the theme
@@ -16,7 +27,7 @@ timezone: America/Mexico_City
 
 title: BUAP.pro Wiki # the main title
 
-tagline: Wiki con toda la información sobre BUAP.pro # it will display as the subtitle
+tagline: Toda la información sobre BUAP.pro # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Wiki con toda la información sobre BUAP.pro
@@ -35,7 +46,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: buap.pro
-  email: "example@domain.com" # change to your email address
+  # email: "example@domain.com" # change to your email address
   fediverse_handle: "" # change to your fediverse handle or leave empty
   links:
     # The first element serves as the copyright owner's link

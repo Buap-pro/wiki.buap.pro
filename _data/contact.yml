@@ -13,6 +13,18 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
+- type: discord
+  icon: "fa-brands fa-discord"
+  noblank: false
+
+- type: whatsapp
+  icon: "fa-brands fa-whatsapp"
+  noblank: false
+
+- type: mainweb
+  icon: "fa-solid fa-globe"
+  noblank: false
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

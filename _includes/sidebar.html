@@ -72,6 +72,11 @@
           {%- capture url -%}
             javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
           {%- endcapture -%}
+        {% when 'discord', 'whatsapp', 'mainweb' %}
+          {%- unless site.[entry.type].link -%}
+            {%- continue -%}
+          {%- endunless -%}
+          {%- assign url = site[entry.type].link -%}
         {% when 'rss' %}
           {% assign url = '/feed.xml' | relative_url %}
         {% else %}
