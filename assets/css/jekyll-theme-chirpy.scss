@@ -9,3 +9,187 @@
 ';
 
 /* append your custom style below */
+html:not([data-mode]),
+html[data-mode='dark'] {
+  color-scheme: dark;
+  --main-bg: #001a2e;
+  --mask-bg: #003a5c;
+  --main-border-color: #002d4c;
+  --text-color: #b8d4e6;
+  --text-muted-color: #7a9bb0;
+  --text-muted-highlight-color: #9dbdd4;
+  --heading-color: #d4e8f5;
+  --label-color: #8fa9bd;
+  --blockquote-border-color: #003552;
+  --blockquote-text-color: #7a9bb0;
+  --link-color: #5eb8e0;
+  --link-underline-color: #2a5670;
+  --button-bg: #002035;
+  --btn-border-color: #003348;
+  --btn-backtotop-color: var(--text-color);
+  --btn-backtotop-border-color: #002540;
+  --card-header-bg: #002540;
+  --checkbox-color: #4a6b82;
+  --checkbox-checked-color: var(--link-color);
+  --img-bg: radial-gradient(circle, #001420 0%, #002035 100%);
+  --shimmer-bg: linear-gradient(
+    90deg,
+    rgb(255 255 255 / 0%) 0%,
+    rgb(0 100 150 / 25%) 50%,
+    rgb(255 255 255 / 0%) 100%
+  );
+  --site-title-color: #6b8da3;
+  --site-subtitle-color: #7a9bb0;
+  --sidebar-bg: #002d4c;
+  --sidebar-border-color: #003a5c;
+  --sidebar-muted-color: #7a9bb0;
+  --sidebar-active-color: #e8f4fa;
+  --sidebar-hover-bg: #003552;
+  --sidebar-btn-bg: #00263d;
+  --sidebar-btn-color: #6b8da3;
+  --avatar-border-color: rgb(180 212 230 / 90%);
+  --topbar-bg: rgb(0 26 46 / 70%);
+  --topbar-text-color: var(--text-color);
+  --search-border-color: #003552;
+  --search-icon-color: #5a7a8f;
+  --input-focus-border-color: #4a8db0;
+  --post-list-text-color: #b8d4e6;
+  --btn-patinator-text-color: var(--text-color);
+  --btn-paginator-hover-color: #002540;
+  --toc-highlight: #5eb8e0;
+  --toc-popup-border-color: #003a5c;
+  --tag-hover: #003a5c;
+  --tb-odd-bg: #001e33;
+  --tb-even-bg: #002540;
+  --tb-border-color: var(--tb-odd-bg);
+  --footnote-target-bg: #004d7a;
+  --btn-share-color: #5a7a8f;
+  --btn-share-hover-color: #8fb3c9;
+  --card-bg: #002035;
+  --card-hover-bg: #003552;
+  --card-shadow: rgb(0 10 20 / 80%) 0 6px 18px 0, rgb(0 60 100 / 30%) 0 0 0 1px;
+  --kbd-wrap-color: #4a6b82;
+  --kbd-text-color: #c5dae8;
+  --kbd-bg-color: #001e33;
+  --prompt-text-color: rgb(200 220 235 / 80%);
+  --prompt-tip-bg: rgb(0 80 60 / 50%);
+  --prompt-tip-icon-color: rgb(60 200 150 / 85%);
+  --prompt-info-bg: rgb(0 70 120 / 60%);
+  --prompt-info-icon-color: #4db8e8;
+  --prompt-warning-bg: rgb(80 70 0 / 70%);
+  --prompt-warning-icon-color: rgb(255 200 80 / 85%);
+  --prompt-danger-bg: rgb(100 30 20 / 65%);
+  --prompt-danger-icon-color: #e85050;
+  --tag-border: #003a5c;
+  --tag-shadow: #001a2e;
+  --dash-color: #003552;
+  --search-tag-bg: #002540;
+  --categories-border: rgb(0 60 100 / 50%);
+  --categories-hover-bg: #003552;
+  --categories-icon-hover-color: #d4e8f5;
+  --timeline-node-bg: #6b8da3;
+  --timeline-color: #003552;
+  --timeline-year-dot-color: var(--timeline-color);
+  --language-border-color: #002d4c;
+  --highlight-bg-color: #00131f;
+  --highlighter-rouge-color: #7dc4e8;
+  --highlight-lineno-color: #5a7a8f;
+  --inline-code-bg: rgb(0 180 225 / 8%);
+  --code-color: #a0c4d8;
+  --code-header-text-color: #6b8da3;
+  --code-header-muted-color: #003348;
+  --code-header-icon-color: #4a6b82;
+  --clipboard-checked-color: #3dc78f;
+  --filepath-text-color: #b8d4e6;
+}
+
+html[data-mode='light'] {
+  --main-bg: #f5fbff;
+  --mask-bg: #a8cfe0;
+  --main-border-color: #d4ebf7;
+  --text-color: #1a3a4d;
+  --text-muted-color: #5a7a8f;
+  --text-muted-highlight-color: inherit;
+  --heading-color: #0d2535;
+  --label-color: #3a5a6d;
+  --blockquote-border-color: #c8e3f0;
+  --blockquote-text-color: #5a7a8f;
+  --link-color: #0088b8;
+  --link-underline-color: #b8dce8;
+  --button-bg: #ffffff;
+  --btn-border-color: #c8e3f0;
+  --btn-backtotop-color: #4a6a7d;
+  --btn-backtotop-border-color: #dceef7;
+  --checkbox-color: #a8c8d8;
+  --checkbox-checked-color: #00b4e1;
+  --img-bg: radial-gradient(circle, #ffffff 0%, #e8f4f9 100%);
+  --shimmer-bg: linear-gradient(
+    90deg,
+    rgb(245 251 255 / 0%) 0%,
+    rgb(0 180 225 / 15%) 50%,
+    rgb(245 251 255 / 0%) 100%
+  );
+  --site-title-color: #5a7a8f;
+  --site-subtitle-color: #6a8a9f;
+  --sidebar-bg: #e8f4f9;
+  --sidebar-border-color: #d4ebf7;
+  --sidebar-muted-color: #4a6a7d;
+  --sidebar-active-color: #0d2535;
+  --sidebar-hover-bg: rgb(0 180 225 / 12%);
+  --sidebar-btn-bg: #ffffff;
+  --sidebar-btn-color: #6a8a9f;
+  --avatar-border-color: #ffffff;
+  --topbar-bg: rgb(245 251 255 / 75%);
+  --topbar-text-color: #2a4a5d;
+  --search-border-color: #c8e3f0;
+  --search-icon-color: #98b8c8;
+  --input-focus-border-color: #78a8be;
+  --post-list-text-color: #3a5a6d;
+  --btn-patinator-text-color: #3a5a6d;
+  --btn-paginator-hover-color: var(--sidebar-bg);
+  --toc-highlight: #0088b8;
+  --toc-popup-border-color: #b8d8e8;
+  --btn-share-color: #5a7a8f;
+  --btn-share-hover-color: #0088b8;
+  --card-bg: #ffffff;
+  --card-hover-bg: #d4ebf7;
+  --card-shadow: rgb(0 100 150 / 8%) 0 2px 6px 0,
+    rgb(180 210 225 / 20%) 0 0 0 1px;
+  --footnote-target-bg: #c8f0ff;
+  --tb-odd-bg: #f8fcfe;
+  --tb-border-color: #d4ebf7;
+  --dash-color: #a8c8d8;
+  --kbd-wrap-color: #98b8c8;
+  --kbd-text-color: var(--text-color);
+  --kbd-bg-color: #ffffff;
+  --prompt-text-color: rgb(26 58 77 / 80%);
+  --prompt-tip-bg: rgb(100 230 180 / 22%);
+  --prompt-tip-icon-color: #00a868;
+  --prompt-info-bg: #d4f0ff;
+  --prompt-info-icon-color: #0088b8;
+  --prompt-warning-bg: rgb(255 240 200);
+  --prompt-warning-icon-color: #e8a800;
+  --prompt-danger-bg: rgb(255 220 225 / 65%);
+  --prompt-danger-icon-color: #d83030;
+  --tag-border: #b8dce8;
+  --tag-shadow: var(--btn-border-color);
+  --tag-hover: #c8e3f0;
+  --search-tag-bg: #e8f4f9;
+  --categories-border: rgb(0 140 200 / 15%);
+  --categories-hover-bg: var(--btn-border-color);
+  --categories-icon-hover-color: #0d2535;
+  --timeline-color: rgb(0 100 150 / 12%);
+  --timeline-node-bg: #98b8c8;
+  --timeline-year-dot-color: #ffffff;
+  --language-border-color: #d4ebf7;
+  --highlight-bg-color: #f0f8fc;
+  --highlighter-rouge-color: #2a5a78;
+  --highlight-lineno-color: #88a8b8;
+  --inline-code-bg: rgb(0 180 225 / 6%);
+  --code-color: #2a4a5d;
+  --code-header-text-color: #88a8b8;
+  --code-header-muted-color: #d4ebf7;
+  --code-header-icon-color: #a8c8d8;
+  --clipboard-checked-color: #30c780;
+  --filepath-text-color: #3a5a6d;
+}
