@@ -2,6 +2,7 @@
 layout: post
 title: Comandos de Towny
 date: 2026-01-16 13:48 -0600
+last_modified_at: 2026-01-16 21:16 -0600
 description: Comandos esenciales (y más que esenciales) para tu experiencia como ciudadano o líder en BUAP.pro
 author: galleta
 categories:
