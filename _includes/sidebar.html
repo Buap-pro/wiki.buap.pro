@@ -104,8 +104,10 @@
             {%- continue -%}
           {%- endunless -%}
           {%- assign url = site[entry.type].link -%}
-        {% when 'rss' %}
-          {% assign url = '/feed.xml' | relative_url %}
+          {% comment %}
+            {% when 'rss' %}
+            {% assign url = '/feed.xml' | relative_url %}
+          {% endcomment %}
         {% else %}
           {% assign url = entry.url %}
       {% endcase %}
