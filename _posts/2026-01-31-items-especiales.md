@@ -50,7 +50,7 @@ Hay algunos items bugeados que no pude quitar por completo de la generación cus
 
 Para ayudarme a eliminar estos items, simplemente intenta usarlos ;)
 
-<a hidden id="quehacer">---</a>
+<div id="quehacer"></div>
 
 **Si tienes uno de estos items en mano e interactúas con cualquier cosa, el item será reemplazado por una bolsa de loot de buena calidad (random... pero buena... _casi siempre_).**
 
