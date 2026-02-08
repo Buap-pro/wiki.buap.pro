@@ -161,3 +161,10 @@ Por defecto, por seguridad de jugadores nuevos, las ciudades están protegidas c
 
 > Un chunk es un espacio de 16 x 16 bloques, puedes ver más información en [la wiki de Minecraft](https://es.minecraft.wiki/w/Chunk)
 {: .prompt-info}
+
+
+## Roles de ciudad
+
+Para permitir que ciertos ciudadanos puedan hacer ciertas acciones (invitar a nuevos ciudadanos, cambiar permisos, cambiar configuraciones de ciudad, etc.) se usan los roles de ciudad.
+
+Los roles de ciudad tienen un post dedicado, que [puedes ver aquí](/posts/roles-de-ciudad)
