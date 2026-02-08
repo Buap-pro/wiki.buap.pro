@@ -2,6 +2,17 @@
 layout: post
 title: Roles de Ciudad
 date: 2026-02-07 18:14 -0600
+description: Información sobre roles útiles en ciudades
+author: galleta
+categories:
+- Tutorial
+- Towny
+tags:
+- tutorial
+- towny
+- dudas
+- roles
+last_modified_at: 2026-02-07 19:42 -0600
 ---
 
 ## ¿Qué son los roles de ciudad?
