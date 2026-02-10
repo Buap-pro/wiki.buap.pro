@@ -31,8 +31,64 @@ Si una ciudad sube de nivel, también sube su capacidad económica, así que hay
 1. Mayor costo de mantención
 2. Mayor costo de paz
 
-> En desarrollo: una tablita con todas los niveles, ventajas y desventajas.
+> Si crees que la siguiente informaci[on], por favor avisa al staff del servidor en WhatsApp o Discord :)
 {: .prompt-info}
+
+### Niveles de Ciudad
+
+- **Nivel:** Nivel de la ciudad
+- **Tipo:** Tipo de ciudad en este nivel
+- **Líder:** Título del lider de ciudad
+- **Ciudadanos:** Cantidad de ciudadanos NECESARIOS para llegar a este nivel
+- **Chunks:** Cantidad de claims/chunks que puede tener la ciudad
+- **Modif. Paz:** Modificador de paz (1.0 = 100% del costo base)
+- **Modif. Mant.:** Modificador de mantenimiento (1.0 = 100% del costo base)
+
+
+**Costo base de paz**: 100.0
+
+**Costo base de mantenimiento**: 100.0
+
+
+| Nivel | Tipo        | Líder        | Ciudadanos | Chunks | Modif. Paz | Modif. Mant. |
+| ----- | ----------- | ------------ | ---------- | ------ | ---------- | ------------ |
+| 1     | Ruinas      | Espíritu     | 0          | 5      | 0.1        | 0.5          |
+| 2     | Campamento  | Jefe         | 1          | 9      | 0.2        | 0.6          |
+| 3     | Aldea       | Jefe         | 4          | 16     | 0.5        | 0.8          |
+| 4     | Pueblo      | Gran Jefe    | 8          | 24     | 1.0        | 1.0          |
+| 5     | Villa       | Líder        | 12         | 28     | 1.5        | 1.4          |
+| 6     | Gran Villa  | Líder Mayor  | 16         | 32     | 1.8        | 1.8          |
+| 7     | Ciudad      | Alcalde      | 20         | 36     | 2.2        | 2.2          |
+| 8     | Gran Ciudad | Gran Alcalde | 24         | 42     | 2.5        | 2.8          |
+| 9     | Prefectura  | Prefecto     | 30         | 50     | 3.0        | 3.0          |
+| 10    | Provincia   | Gobernador   | 36         | 60     | 3.6        | 3.5          |
+| 11    | Estado      | Gobernador   | 40         | 70     | 4.5        | 4.0          |
+
+### Niveles de Nación
+
+- **Nivel:** Nivel de la nación  
+- **Tipo:** Tipo de nación en este nivel  
+- **Líder:** Título del líder de nación  
+- **Ciudadanos:** Cantidad de ciudadanos NECESARIOS (suma de ciudades de la nación) para llegar al nivel  
+- **Chunks bonus:** Chunks/claims EXTRA que reciben todas las ciudades de la nación  
+- **Modif. Paz:** Modificador de paz (1.0 = 100 % del costo base)
+- **Modif. Mant.:** Modificador de mantenimiento (1.0 = 100 % del costo base)
+
+**Costo base de paz**: 1200.0
+
+**Costo base de mantenimiento**: 1000.0
+
+| Nivel | Tipo         | Líder      | Ciudadanos | Chunks bonus | Modif. Paz | Modif. Mant. |
+| ----- | ------------ | ---------- | ---------- | ------------ | ---------- | ------------ |
+| 1     | Equipo       | Capitán    | 5          | 10           | 0.5        | 0.5          |
+| 2     | Grupo        | Jefe       | 10         | 15           | 1.0        | 1.0          |
+| 3     | Coalición    | Líder      | 20         | 25           | 2.5        | 2.0          |
+| 4     | Organización | Directora  | 32         | 35           | 3.0        | 3.5          |
+| 5     | Federción    | Conde      | 50         | 45           | 4.0        | 4.5          |
+| 6     | Dominio      | Duquesa    | 60         | 50           | 5.0        | 5.5          |
+| 7     | Reino        | Rey        | 75         | 70           | 6.0        | 7.0          |
+| 8     | Imperio      | Emperatriz | 80         | 80           | 7.0        | 8.0          |
+
 
 ### ¿Cómo sube de nivel mi ciudad?
 
