@@ -2,7 +2,6 @@
 layout: post
 title: Comandos de Towny
 date: 2026-01-16 13:48 -0600
-last_modified_at: 2026-01-16 21:16 -0600
 description: Comandos esenciales (y más que esenciales) para tu experiencia como ciudadano o líder en BUAP.pro
 author: galleta
 categories:
@@ -12,6 +11,7 @@ tags:
 - tutorial
 - towny
 - comandos
+last_modified_at: 2026-02-10 16:48 -0600
 ---
 
 Los comandos son la base fundamental de la experiencia en Towny, esta guía está pensada para ayudarte a **vivir, proteger y mejorar tu experiencia dentro de una ciudad Towny**, ya seas un ciudadano o el líder de una gran ciudad o nación.
@@ -84,7 +84,13 @@ Si eres alcalde, estos comandos son 100% necesarios:
 
 `/town claim` - Reclama el chunk donde estás parado.
 
+> Nota: Para reclamar un chunk, este tiene que estar pegado por lo menos a otros 2 chunks (no puedes hacer una línea de chunks individuales)
+{: .prompt-info}
+
 `/town unclaim` - Libera un terreno reclamado.
+
+> Nota: Para liberar un chunk, los chunks restantes tiene que estar pegados por lo menos a otros 2 chunks
+{: .prompt-info}
 
 `/town invite <jugador>` - Invita jugadores a tu ciudad.
 
