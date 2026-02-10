@@ -97,3 +97,17 @@ Rol administrativo a nivel nación, con control diplomático y de gestión.
 Rol básico para la expansión de la nación.
 
 * <span data-bs-toggle="tooltip" title="Permite añadir ciudades a la nación.">towny.command.nation.add</span>
+
+## ¿Cómo dar/quitar roles?
+
+### Dar rol en ciudad
+
+Simplemente usa el comando `/t rank add jugador rango`, por ejemplo `/t rank add GalletaDev sheriff`.
+
+Para quitar roles, es básicamente lo mismo, pero en vez de _`add`_, se usa _`remove`_: `/t rank remove jugador rango`
+
+### Dar rol en nación
+
+Simplemente usa el comando `/n rank add jugador rango`, por ejemplo `/n rank add GalletaDev asistente`.
+
+Para quitar roles, es básicamente lo mismo, pero en vez de _`add`_, se usa _`remove`_: `/n rank remove jugador rango`
