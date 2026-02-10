@@ -12,7 +12,7 @@ tags:
 - towny
 - dudas
 - roles
-last_modified_at: 2026-02-07 19:42 -0600
+last_modified_at: 2026-02-10 16:42 -0600
 ---
 
 ## ¿Qué son los roles de ciudad?
