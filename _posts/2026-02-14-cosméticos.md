@@ -2,7 +2,7 @@
 layout: post
 title: Cosméticos
 date: 2026-02-14 14:27 -0600
-description: Información sobre guerras entre naciones
+description: Información sobre TODOS los tipos de cosméticos :D
 author: galleta
 categories:
 - Tutorial
