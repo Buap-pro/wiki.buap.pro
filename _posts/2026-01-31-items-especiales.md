@@ -12,7 +12,7 @@ tags:
 - especial
 - items
 media_subpath: assets/img/posts/2026-01-31-items-especiales
-last_modified_at: 2026-02-03 12:34 -0600
+last_modified_at: 2026-02-18 19:34 -0600
 ---
 
 ## Bolsas de loot
@@ -32,6 +32,31 @@ Las bolsas de loot son un arreglo pensado para que puedas conseguir loot especia
 Agarra una bolsa de loot, ponla en tu mano y presiona `Shift + Click Derecho` al aire, al hacer esto recibirás el loot correspondiente a la calidad de la bolsa.
 
 > Incluso cuando estos items tengan un uso completo, podría ser mejor **NO** usarlos (guardarlos en un lugar seguro) y esperar a que haya mejor loot disponible.
+{: .prompt-tip}
+
+## 🥰💖 Items de San Valentín 💖🥰
+
+Agregué algunos items por San Valentín (sí... hasta 18 de febrero... pero TODO febrero cuenta), para craftearlos necesitarás _corazones_, que puedes obtener simplemente jugando :) cada cierto recibirás una cantidad random de corazones en tu inventario.
+
+> Si tienes inventario lleno, los corazones caerán la piso!
+{: .prompt-warning}
+
+Una vez que tengas corazones para crafteos, puedes usarlos en crafteos, buscando "san valentín" (_con acento_) en tu libro verde de recetas! :D
+
+![ejemplo de crafteos con corazones](valentine_craft.png)
+_Ejemplo de crafteos con corazones_
+
+También puedes mejorar armaduras de diamante para que se conviertan en armadura cosmética.
+
+Las armaduras de San Valentín SÍ tienen equivalente cosmético, puedes ver más información sobre eso en [el post de cosméticos](/posts/cosméticos/#armaduras-crafteables).
+
+![ejemplo de mejora con corazones 1](valentine_smith1.png)
+_Ejemplo de mejora con corazones 1_
+
+![ejemplo de mejora con corazones 2](valentine_smith2.png)
+_Ejemplo de mejora con corazones 2_
+
+> Hay **armas y herramientas** de San Valentín en desarrollo, quizá lleguen _"tarde"_, pero llegarán c:
 {: .prompt-tip}
 
 ## Otros items
