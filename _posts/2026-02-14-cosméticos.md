@@ -14,6 +14,7 @@ tags:
 - armaduras
 - donadores
 media_subpath: assets/img/posts/2026-02-14-cosméticos
+last_modified_at: 2026-02-18 19:17 -0600
 ---
 
 Los cosméticos son la forma en la que puedes personaliza y decorar a tu personaje sin afectar tu jugabilidad. Desde botas de armadura hasta alas (alas _cosméticas_... no son elytras c:) y globos que te seguirán a donde vayas.
@@ -47,7 +48,7 @@ Al usar cosméticos de armadura, parecerá que tu armadura es reemplazada, pero 
 
 Varias armaduras cosméticas tienen su equivalente en crafteo, en esos casos las armaduras crafteables SÍ _son 100% reales_, como cualquier otra armadura, ocupando tu espacio de inventario y usando sus propiedades de armadura, por lo que si intentas usar una armadura crafteada, realmente reemplazarás tu armadura real.
 
-> Las armaduras cosméticas crafteables están en desarrollo :)
+> Puedes ver información sobre las armaduras disponibles en [el post de items especiales](/posts/items-especiales/)
 {: .prompt-info}
 
 ## Armas y herramientas
