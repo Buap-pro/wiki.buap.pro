@@ -12,6 +12,7 @@ tags:
 - bodas
 - matrimonio
 - divorcios
+last_modified_at: 2026-02-18 19:35 -0600
 ---
 
 ## Ahora pueden casarse 🥳💒
@@ -36,6 +37,9 @@ Las parejas casadas pueden usar algunos comandos de pareja para interactuar entr
 - `/boda ponercasa`
 - `/boda casa`
 - `/boda cambiarchat`
+
+> Cuando dos jugadores se casan, los jugadores involucrados reciben regalos de boda :D
+{: .prompt-tip}
 
 ### Ya no quiero estar casad@ :(
 
