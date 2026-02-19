@@ -46,7 +46,9 @@ Al usar cosméticos de armadura, parecerá que tu armadura es reemplazada, pero 
 
 ### Armaduras crafteables
 
-Varias armaduras cosméticas tienen su equivalente en crafteo, en esos casos las armaduras crafteables SÍ _son 100% reales_, como cualquier otra armadura, ocupando tu espacio de inventario y usando sus propiedades de armadura, por lo que si intentas usar una armadura crafteada, realmente reemplazarás tu armadura real.
+Varias armaduras cosméticas tienen su equivalente en crafteo, en esos casos las armaduras crafteables SÍ _son 100% reales_, como cualquier otra armadura, ocupando tu espacio de inventario y usando sus propias estadísticas de armadura (dureza, protección, encantamientos, durabilidad, etc.), por lo que si intentas usar una armadura crafteada, realmente reemplazarás tu armadura real.
+
+Las armaduras crafteadas _con equivalente cosmético_ tienen las mismas estadísticas que una armadura de diamante y **no** pueden ser mejoradas a netherite.
 
 > Puedes ver información sobre las armaduras disponibles en [el post de items especiales](/posts/items-especiales/)
 {: .prompt-info}
