@@ -12,10 +12,14 @@ tags:
 pin: false
 date: 2026-01-16 15:15 -0600
 media_subpath: assets/img/posts/2026-01-16-mods-del-servidor
+last_modified_at: 2026-02-20 19:00 -0600
 ---
 
 > <h3>BEDROCK</h3>Si juegas en Bedrock, no puedes usar los mods de esta lista... y la verdad no sé qué puedes usar, no entiendo Bedrock.
 {: .prompt-warning}
+
+> El modpack del servidor **NO** es para Forge, es para [Fabric](https://www.minecraft-hosting.pro/es/articulo/485-fabric), si instalas los mods en Forge, no funcionarán.
+{: .prompt-danger}
 
 ## Mods 100% necesarios
 
