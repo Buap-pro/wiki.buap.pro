@@ -9,8 +9,8 @@ categories:
 tags:
 - tutorial
 - towny
-pin: false
 date: 2026-01-16 13:28 -0600
+pin: true
 ---
 
 **¿Qué es Towny?**

@@ -11,6 +11,7 @@ tags:
 - tutorial
 - wiki
 - buap.pro
+pin: true
 ---
 
 ## ¿Cómo corregir un post?
