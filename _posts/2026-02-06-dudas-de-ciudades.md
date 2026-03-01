@@ -12,7 +12,7 @@ tags:
 - towny
 - dudas
 - granjas
-last_modified_at: 2026-02-10 17:02 -0600
+last_modified_at: 2026-02-28 17:30 -0600
 ---
 
 ## Niveles
@@ -31,7 +31,7 @@ Si una ciudad sube de nivel, también sube su capacidad económica, así que hay
 1. Mayor costo de mantención
 2. Mayor costo de paz
 
-> Si crees que la siguiente informaci[on], por favor avisa al staff del servidor en WhatsApp o Discord :)
+> Si crees que la siguiente información está incompleta o desactualizada, por favor avisa al staff del servidor en WhatsApp o Discord :)
 {: .prompt-info}
 
 ### Niveles de Ciudad
@@ -225,3 +225,50 @@ Por defecto, por seguridad de jugadores nuevos, las ciudades están protegidas c
 Para permitir que ciertos ciudadanos puedan hacer ciertas acciones (invitar a nuevos ciudadanos, cambiar permisos, cambiar configuraciones de ciudad, etc.) se usan los roles de ciudad.
 
 Los roles de ciudad tienen un post dedicado, que [puedes ver aquí](/posts/roles-de-ciudad)
+
+## Chunks Bonus
+
+Cada ciudad tiene un límite de chunks que puede reclamar dependiendo de su nivel de ciudad y nivel de nación, una vez que se llega a ese límite, la ciudad puede decidir comprar chunks bonus, los cuales extienden el terreno de la ciudad a cambio de un costo extra por cada chunk.
+
+Puedes ver la cantidad de chunks que tu ciudad puede comprar en el menú de información mostrado por el comando `/t`
+
+Cada chunk bonus cuesta: `$100 * (chunks comprados) * 1.1`, o visto como tabla:
+
+| Chunks comprados | Cálculo    | Precio del siguiente chunk |
+| ---------------- | ---------- | -------------------------- |
+| 0                | $100       | $100                       |
+| 1                | $100 x 1.1 | $110                       |
+| 2                | $110 x 1.1 | $121                       |
+| 3                | $121 x 1.1 | $133                       |
+| 4                | $133 x 1.1 | $146                       |
+| 5                | $146 x 1.1 | $146                       |
+| etc              | $146 x 1.1 | $etc                       |
+| ---------------- | -------    | -------------------------- |
+
+> Entre más alto sea tu [nivel de ciudad](#️-niveles-de-ciudad), tu ciudad podrá comprar más chunks bonus.
+{: .prompt-tip}
+
+> Unirte a una [nación con buen nivel](#-niveles-de-nación) puede otorgarle más chunks a tu ciudad (gratis).
+{: .prompt-tip}
+
+### ¿Cómo comprar chunks bonus?
+
+Usando el comando `/t buy bonus X` (X = la cantidad que quieres comprar) puedes comprar chunks bonus hasta llegar al límite de tu ciudad.
+
+## Outposts / Puestos de Avanzada
+
+Los Puestos de Avanzada (llamados "Outposts" en comandos y en la wiki), son extensiones de terreno de la ciudad que no requieren estar pegadas o cerca de la ciudad original. Si tu ciudad está en un desierto pero tienes una granja de mobs en un océano, puede ser difícil hacer extender tu terreno hasta el océano, en ese tipo de casos es cuando usarías un outpost.
+
+> Entre más alto sea tu [nivel de ciudad](#️-niveles-de-ciudad), tu ciudad tendrá más outposts disponibles.
+{: .prompt-tip}
+
+> Unirte a una [nación con buen nivel](#-niveles-de-nación) puede darle más outposts a tu ciudad.
+{: .prompt-tip}
+
+### ¿Cómo poner un outpost?
+
+Solo tienes que usar el comando `/t claim outpost` en el chunk donde quieres que inicie tu outpost.
+
+### ¿Cómo ampliar mi outpost?
+
+Ya que un outpost es una extensión de tu ciudad, simplemente reclama (claimea) chunks que estén pegados a este nuevo terreno usando `/t claim`
