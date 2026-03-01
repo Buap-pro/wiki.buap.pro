@@ -50,19 +50,19 @@ Si una ciudad sube de nivel, también sube su capacidad económica, así que hay
 **Costo base de mantenimiento**: 100.0
 
 
-| Nivel | Tipo        | Líder        | Ciudadanos | Chunks | Modif. Paz | Modif. Mant. |
-| ----- | ----------- | ------------ | ---------- | ------ | ---------- | ------------ |
-| 1     | Ruinas      | Espíritu     | 0          | 5      | 0.1        | 0.5          |
-| 2     | Campamento  | Jefe         | 1          | 9      | 0.2        | 0.6          |
-| 3     | Aldea       | Jefe         | 4          | 16     | 0.5        | 0.8          |
-| 4     | Pueblo      | Gran Jefe    | 8          | 24     | 1.0        | 1.0          |
-| 5     | Villa       | Líder        | 12         | 28     | 1.5        | 1.4          |
-| 6     | Gran Villa  | Líder Mayor  | 16         | 32     | 1.8        | 1.8          |
-| 7     | Ciudad      | Alcalde      | 20         | 36     | 2.2        | 2.2          |
-| 8     | Gran Ciudad | Gran Alcalde | 24         | 42     | 2.5        | 2.8          |
-| 9     | Prefectura  | Prefecto     | 30         | 50     | 3.0        | 3.0          |
-| 10    | Provincia   | Gobernador   | 36         | 60     | 3.6        | 3.5          |
-| 11    | Estado      | Gobernador   | 40         | 70     | 4.5        | 4.0          |
+| Nivel | Tipo        | Líder        | Ciudadanos | Chunks | Chunks Bonus | Outposts | Modif. Paz | Modif. Mant. |
+| ----- | ----------- | ------------ | ---------- | ------ | ------------ | -------- | ---------- | ------------ |
+| 1     | Ruinas      | Espíritu     | 0          | 5      | 0            | 0        | 0.1        | 0.5          |
+| 2     | Campamento  | Jefe         | 1          | 9      | 5            | 0        | 0.2        | 0.6          |
+| 3     | Aldea       | Jefe         | 4          | 16     | 9            | 0        | 0.5        | 0.8          |
+| 4     | Pueblo      | Gran Jefe    | 8          | 24     | 16           | 0        | 1.0        | 1.0          |
+| 5     | Villa       | Líder        | 12         | 28     | 24           | 1        | 1.5        | 1.4          |
+| 6     | Gran Villa  | Líder Mayor  | 16         | 32     | 28           | 2        | 1.8        | 1.8          |
+| 7     | Ciudad      | Alcalde      | 20         | 36     | 32           | 3        | 2.2        | 2.2          |
+| 8     | Gran Ciudad | Gran Alcalde | 24         | 42     | 36           | 3        | 2.5        | 2.8          |
+| 9     | Prefectura  | Prefecto     | 30         | 50     | 42           | 4        | 3.0        | 3.0          |
+| 10    | Provincia   | Gobernador   | 36         | 60     | 50           | 4        | 3.6        | 3.5          |
+| 11    | Estado      | Gobernador   | 40         | 70     | 60           | 4        | 4.5        | 4.0          |
 
 ### Niveles de Nación
 
@@ -77,17 +77,17 @@ Si una ciudad sube de nivel, también sube su capacidad económica, así que hay
 **Costo base de paz**: 1200.0
 
 **Costo base de mantenimiento**: 1000.0
-
-| Nivel | Tipo         | Líder      | Ciudadanos | Chunks bonus | Modif. Paz | Modif. Mant. |
-| ----- | ------------ | ---------- | ---------- | ------------ | ---------- | ------------ |
-| 1     | Equipo       | Capitán    | 5          | 10           | 0.5        | 0.5          |
-| 2     | Grupo        | Jefe       | 10         | 15           | 1.0        | 1.0          |
-| 3     | Coalición    | Líder      | 20         | 25           | 2.5        | 2.0          |
-| 4     | Organización | Directora  | 32         | 35           | 3.0        | 3.5          |
-| 5     | Federción    | Conde      | 50         | 45           | 4.0        | 4.5          |
-| 6     | Dominio      | Duquesa    | 60         | 50           | 5.0        | 5.5          |
-| 7     | Reino        | Rey        | 75         | 70           | 6.0        | 7.0          |
-| 8     | Imperio      | Emperatriz | 80         | 80           | 7.0        | 8.0          |
+| Nivel | Tipo         | Líder      | Ciudadanos | Chunks Bonus | Outposts Bonus | Modif. Paz | Modif. Mant. |
+| ----- | ------------ | ---------- | ---------- | ------------ | -------------- | ---------- | ------------ |
+| 1     | Vestigios    | Ex-Capitán | 0          | 0            | 0              | 0.3        | 0.3          |
+| 2     | Equipo       | Capitán    | 5          | 10           | 0              | 0.5        | 0.5          |
+| 3     | Grupo        | Jefe       | 10         | 15           | 0              | 1.0        | 1.0          |
+| 4     | Coalición    | Líder      | 20         | 25           | 1              | 2.5        | 2.0          |
+| 5     | Organización | Directora  | 32         | 35           | 1              | 3.0        | 3.5          |
+| 6     | Federación   | Conde      | 50         | 45           | 2              | 4.0        | 4.5          |
+| 7     | Dominio      | Duquesa    | 60         | 50           | 2              | 5.0        | 5.5          |
+| 8     | Reino        | Rey        | 75         | 70           | 3              | 6.0        | 7.0          |
+| 9     | Imperio      | Emperatriz | 80         | 80           | 3              | 7.0        | 8.0          |
 
 
 ### ¿Cómo sube de nivel mi ciudad?
